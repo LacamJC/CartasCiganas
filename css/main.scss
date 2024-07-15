@@ -175,29 +175,7 @@ main{
             text-align: center;
             margin-bottom: 50px;
         }
-        .trabalhos{
-            display: flex;
-            justify-content: space-around;
-            
-            flex-wrap: wrap;
-            .card{
-                margin: 20px;
-                i{
-                    font-size: 4rem;
-                    text-align: center;
-                    margin: 20px 0px 10px 0px;
-                }
-
-                .card-body{
-                    .card-title{
-                        letter-spacing: 1px;
-                    }
-                    .card-text{
-                        letter-spacing: 1px;
-                    }
-                }
-            }
-        }
+        
     }
 
 }
