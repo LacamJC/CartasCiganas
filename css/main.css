@@ -129,6 +129,27 @@ main .servicos h2 {
   text-align: center;
   margin-bottom: 50px;
 }
+main .servicos p {
+  text-indent: 20px;
+  font-size: 1.2rem;
+  color: rgb(58, 58, 58);
+}
+main .servicos .col {
+  margin: 20px 0px;
+}
+main .servicos .col-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .servicos .col-img img {
+  width: 80%;
+  box-shadow: -2px 2px 14px -5px rgba(0, 0, 0, 0.47);
+  border-radius: 15px;
+}
+main .servicos .row > div {
+  margin-bottom: 20px;
+}
 
 .zap {
   border: 3px solid black;

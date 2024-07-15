@@ -175,7 +175,38 @@ main{
             text-align: center;
             margin-bottom: 50px;
         }
+
+        h4{
+        }
         
+        p{
+            text-indent: 20px;
+            font-size: 1.2rem;
+            color: rgb(58, 58, 58);
+        }
+
+        .col
+        {
+            // background-color: red;
+            margin: 20px 0px;
+        }
+        
+        .col-img
+        {
+            // background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 80%;
+                box-shadow: $sombra--caixa;
+                border-radius: 15px;
+            }
+        }
+
+        .row > div{
+                margin-bottom: 20px;
+        }
     }
 
 }
