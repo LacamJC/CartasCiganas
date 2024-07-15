@@ -43,6 +43,11 @@ main .pica h3 {
   color: black;
   text-shadow: -1px 1px 4px rgba(0, 0, 0, 0.32);
 }
+@media (max-width: 700px) {
+  main .pica {
+    width: 100%;
+  }
+}
 main .banner--tarot {
   width: 80%;
   margin: 60px auto;
@@ -142,4 +147,25 @@ main .servicos .trabalhos .card .card-body .card-title {
 }
 main .servicos .trabalhos .card .card-body .card-text {
   letter-spacing: 1px;
+}
+
+.zap {
+  border: 3px solid black;
+  border-radius: 50%;
+  font-size: 3rem;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.2;
+  transition: 0.5s ease all;
+}
+.zap:hover {
+  opacity: 1;
+  cursor: pointer;
+  box-shadow: -2px 2px 14px -5px rgba(0, 0, 0, 0.47);
 }/*# sourceMappingURL=main.css.map */
