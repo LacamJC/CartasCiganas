@@ -370,6 +370,12 @@ footer
     {
         // background-color: blue;
         text-align: center;
+
+        @media (max-width: 726px)
+        {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
         
         a{
             text-decoration: none;

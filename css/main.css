@@ -273,6 +273,12 @@ footer {
 footer .info, footer .secoes {
   text-align: center;
 }
+@media (max-width: 726px) {
+  footer .info, footer .secoes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
 footer .info a, footer .secoes a {
   text-decoration: none;
 }
