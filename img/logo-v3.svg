@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: https://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="168pt"
+    height="240pt"
+    viewBox="0 0 168 240">
+<defs/>
+<rect id="shape0" transform="translate(16.2, 15.8436363781322)" fill="none" stroke="#000000" stroke-width="2.88" stroke-linecap="square" stroke-linejoin="bevel" width="135.6" height="208.56"/><ellipse id="shape1" transform="matrix(0.892280658129165 0.451481148143086 -0.451481148143086 0.892280658129165 87.0757574656188 24.8439531129156)" rx="40.8506601326877" ry="85.397020730887" cx="40.8506601326877" cy="85.397020730887" fill="none" stroke="#000000" stroke-width="7.2" stroke-linecap="square" stroke-linejoin="bevel"/><rect id="shape2" fill="none" stroke="#000000" stroke-width="9.6" stroke-linecap="square" stroke-linejoin="bevel" width="168" height="240"/><ellipse id="shape3" transform="translate(61.560000007248, 88.1464584129757)" rx="27.2999964883808" ry="27.4467706630495" cx="27.2999964883808" cy="27.4467706630495" fill="none" stroke="#000000" stroke-width="0.96" stroke-linecap="square" stroke-linejoin="bevel"/><path id="shape4" transform="translate(71.7591205063945, 97.3198594833512)" sodipodi:type="arc" sodipodi:rx="17.759844653875" sodipodi:ry="17.759844653875" sodipodi:cx="17.7610283600873" sodipodi:cy="17.759844914976" sodipodi:start="6.28318530717959" sodipodi:end="5.38897451572304" sodipodi:open="true" d="M28.8811 3.91222C22.416 -1.2794 13.219 -1.30665 6.72326 3.84655C0.227552 8.99976 -1.83798 17.9619 1.74693 25.4384C5.33184 32.9149 13.6131 36.9159 21.6983 35.0778C29.7835 33.2396 35.5209 26.0514 35.5209 17.7598" fill="#000000" fill-rule="evenodd" stroke="#000000" stroke-width="7.2" stroke-linecap="square" stroke-linejoin="bevel"/>
+</svg>
