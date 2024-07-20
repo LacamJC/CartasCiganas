@@ -62,7 +62,7 @@ main .pica ._btn {
   color: white;
   border: 2px solid white;
   margin-top: 50px !important;
-  margin: auto !important;
+  transform: scale(1.2);
 }
 main .pica ._btn:hover {
   background-color: white;
