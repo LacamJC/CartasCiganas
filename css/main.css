@@ -15,6 +15,10 @@ body {
 
 header {
   padding: 0px 0px 0px 30px !important;
+  position: sticky;
+  top: 0;
+  background-image: linear-gradient(to bottom, #1A1A1A, rgba(26, 26, 26, 0.7529411765), rgba(26, 26, 26, 0.2431372549));
+  z-index: 3;
 }
 header .navbar-nav .nav-item {
   font-size: 1.3rem;
@@ -75,6 +79,7 @@ main .pica ._btn:hover {
 }
 main .banner--tarot {
   width: 80%;
+  z-index: 2;
   margin: 60px auto;
   min-height: 200px;
   background-image: url("../img/background-tarot_redimensionado.png");

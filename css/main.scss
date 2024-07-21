@@ -18,8 +18,10 @@ body{
 header{
     // border: 1px solid black;
     padding: 0px 0px 0px 30px !important;
-    
-
+    position: sticky;   
+    top: 0; 
+    background-image: linear-gradient(to bottom, $preto, #1a1a1ac0, #1a1a1a3e);
+    z-index: 3;
     .navbar-nav{
         // background-color: red;
 
@@ -113,6 +115,7 @@ main{
     .banner--tarot
     {
         width: 80%;
+        z-index: 2;
         margin: 60px auto;
         
         // background-color: red;
