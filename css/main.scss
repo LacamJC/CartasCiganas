@@ -18,7 +18,8 @@ body{
 header{
     // border: 1px solid black;
     padding: 0px 0px 0px 30px !important;
-    position: sticky;   
+    position: fixed;   
+    width: 100%;
     top: 0; 
     background-image: linear-gradient(to bottom, $preto, #1a1a1ac0, #1a1a1a3e);
     z-index: 3;

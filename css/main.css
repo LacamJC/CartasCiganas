@@ -15,7 +15,8 @@ body {
 
 header {
   padding: 0px 0px 0px 30px !important;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   background-image: linear-gradient(to bottom, #1A1A1A, rgba(26, 26, 26, 0.7529411765), rgba(26, 26, 26, 0.2431372549));
   z-index: 3;
