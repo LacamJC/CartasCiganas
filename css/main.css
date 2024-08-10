@@ -22,7 +22,6 @@ header {
 @media (min-width: 726px) {
   header {
     background-image: linear-gradient(to bottom, #1A1A1A, rgba(26, 26, 26, 0.7529411765), rgba(26, 26, 26, 0.5098039216), rgba(26, 26, 26, 0));
-    z-index: 1;
     top: 0;
     position: fixed !important;
   }
@@ -233,7 +232,7 @@ main .servicos .row > div {
 }
 @media (max-width: 726px) {
   .zap {
-    opacity: 0.2;
+    opacity: 0.5;
     bottom: 50px;
     z-index: 1;
   }
