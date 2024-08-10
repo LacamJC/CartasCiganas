@@ -16,19 +16,15 @@ body {
 
 header {
   padding: 0px 0px 0px 30px !important;
-  position: fixed !important;
   width: 100%;
-  z-index: 1;
-  top: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
   z-index: 3;
 }
 @media (min-width: 726px) {
   header {
     background-image: linear-gradient(to bottom, #1A1A1A, rgba(26, 26, 26, 0.7529411765), rgba(26, 26, 26, 0.5098039216), rgba(26, 26, 26, 0));
+    z-index: 1;
+    top: 0;
+    position: fixed !important;
   }
 }
 @media (max-width: 725px) {
@@ -238,7 +234,6 @@ main .servicos .row > div {
 @media (max-width: 726px) {
   .zap {
     opacity: 0.2;
-    display: none;
     bottom: 50px;
     z-index: 1;
   }
