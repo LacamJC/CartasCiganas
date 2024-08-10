@@ -11,6 +11,7 @@ body{
     overflow-x: hidden;
     // background-color: $preto;
     background-image: linear-gradient(to bottom, $preto, $vermelho, $avermelhado, $avermelhado);
+    // background-image: linear-gradient(-45deg, $azul-1, $azul-2);
 
 }
 
@@ -23,8 +24,17 @@ header{
     padding: 0px 0px 0px 30px !important;
     position: fixed;   
     width: 100%;
+    z-index: 1;
     top: 0; 
-    background-image: linear-gradient(to bottom, $preto, #1a1a1ac0, #1a1a1a3e);
+    @media (min-width: 726px)
+    {
+        background-image: linear-gradient(to bottom, $preto, #1a1a1ac0, #1a1a1a82, #1a1a1a00);
+    }
+
+    @media (max-width:725px)
+    {
+        background-color: $preto;;
+    }
     z-index: 3;
     .navbar-nav{
         // background-color: red;
@@ -326,12 +336,19 @@ main{
         width: 80%;
     }
 
+    .info{
+        background-color: $preto;
+        border-radius: 16px;
+        padding: 15px 0px 0px 40px  ;
+    }
+
     .contato{
         // background-color: red;
         @media (min-width:726px)
         {
             max-width: 80%;
         }
+
         margin: auto;
         flex-wrap: wrap;
         // display: flex;
@@ -363,7 +380,7 @@ main{
 
             box-shadow: $sombra--caixa;
 
-            max-width: 360px;
+            max-width: 450px;
             height: 110px;
             font-size: 1.3rem;
 
