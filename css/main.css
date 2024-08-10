@@ -10,6 +10,7 @@
 
 body {
   overflow-x: hidden;
+  width: 100%;
   background-image: linear-gradient(to bottom, #1A1A1A, #570000, #3B0B17, #3B0B17);
 }
 
@@ -236,7 +237,8 @@ main .servicos .row > div {
 }
 @media (max-width: 726px) {
   .zap {
-    opacity: 0.9;
+    opacity: 0.2;
+    display: none;
     bottom: 50px;
     z-index: 1;
   }
