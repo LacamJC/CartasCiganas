@@ -26,6 +26,11 @@ header{
     width: 100%;
     z-index: 1;
     top: 0; 
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     @media (min-width: 726px)
     {
         background-image: linear-gradient(to bottom, $preto, #1a1a1ac0, #1a1a1a82, #1a1a1a00);
