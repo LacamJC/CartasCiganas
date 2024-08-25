@@ -11,11 +11,15 @@ body{
     overflow-x: hidden;
     width: 100%;
     // background-color: $preto;
-    background-image: linear-gradient(to bottom, $vermelho, $preto, $preto, $vermelho, $vermelho, $preto);
+    background-image: linear-gradient(to bottom, $preto, $preto, $preto, $vermelho, $vermelho, $vermelho);
     // background-image: linear-gradient(-45deg, $azul-1, $azul-2);
 
 }
 
+
+.font-black{
+    color: $preto;
+}
 .menu-fixed
 {
     position: fixed;
@@ -255,6 +259,7 @@ main{
     {
         margin-top: 200px;
         padding-top: 100px;
+        text-shadow: $sombra--texto--leve;
         margin-bottom: 200px;
         .beneficios__lista{
             // background-color: red;
@@ -302,6 +307,7 @@ main{
     .servicos{
         margin-bottom: 300px;
         margin-top: 200px;
+        text-shadow: $sombra--texto--leve;
         // padding-top: 100px;
         h2{
             text-align: center;
@@ -390,6 +396,7 @@ main{
     margin-top: 200px;
     padding-top: 100px;
     margin-bottom: 300px;
+    text-shadow: $sombra--texto--leve;
 
     p{
         font-size: 1.2rem;

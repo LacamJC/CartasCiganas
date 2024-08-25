@@ -11,7 +11,11 @@
 body {
   overflow-x: hidden;
   width: 100%;
-  background-image: linear-gradient(to bottom, #DFC684, #2F2F2F, #2F2F2F, #DFC684, #DFC684, #2F2F2F);
+  background-image: linear-gradient(to bottom, #2F2F2F, #2F2F2F, #2F2F2F, #DFC684, #DFC684, #DFC684);
+}
+
+.font-black {
+  color: #2F2F2F;
 }
 
 .menu-fixed {
@@ -45,7 +49,7 @@ body {
   transition: 0.5s ease all;
 }
 .menu-fixed ul .nav-item .nav-link:hover {
-  text-shadow: -1px 1px 4px rgba(0, 0, 0, 0.32);
+  text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.121);
 }
 .menu-fixed ul .nav-item:hover .nav-item__outline {
   border: 1px solid rgb(255, 255, 255) !important;
@@ -85,7 +89,7 @@ header .navbar-nav .nav-item {
     transition: 0.5s ease all;
   }
   header .navbar-nav .nav-item .nav-link:hover {
-    text-shadow: -1px 1px 4px rgba(0, 0, 0, 0.32);
+    text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.121);
   }
   header .navbar-nav .nav-item:hover .nav-item__outline {
     border: 1px solid rgb(255, 255, 255) !important;
@@ -113,7 +117,7 @@ main .pica {
 }
 main .pica h3 {
   text-align: center;
-  text-shadow: -1px 1px 4px rgba(0, 0, 0, 0.32);
+  text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.121);
 }
 main .pica ._btn {
   color: white;
@@ -183,6 +187,7 @@ main .banner--tarot p {
 main .beneficios {
   margin-top: 200px;
   padding-top: 100px;
+  text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.121);
   margin-bottom: 200px;
 }
 main .beneficios .beneficios__lista {
@@ -218,6 +223,7 @@ main .beneficios .img-01 img {
 main .servicos {
   margin-bottom: 300px;
   margin-top: 200px;
+  text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.121);
 }
 main .servicos h2 {
   text-align: center;
@@ -282,6 +288,7 @@ main .servicos .row > div {
   margin-top: 200px;
   padding-top: 100px;
   margin-bottom: 300px;
+  text-shadow: -1px 1px 3px rgba(0, 0, 0, 0.121);
 }
 .secao_contato p {
   font-size: 1.2rem;
