@@ -11,15 +11,74 @@ body{
     overflow-x: hidden;
     width: 100%;
     // background-color: $preto;
-    background-image: linear-gradient(to bottom, $preto, $vermelho, $avermelhado, $avermelhado);
+    background-image: linear-gradient(to bottom, $vermelho, $preto, $preto, $vermelho, $vermelho, $preto);
     // background-image: linear-gradient(-45deg, $azul-1, $azul-2);
 
+}
+
+.menu-fixed
+{
+    position: fixed;
+    top: 0;
+    width: 100%;    
+    height: 50px;
+    
+    background-color: $preto;
+    ul{
+        margin-top: 10px;
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        width: 100%;
+        // background-color: red;
+        justify-content: space-evenly;
+        z-index: 40000  ;
+
+        .nav-item{
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            .nav-item__outline
+            {
+                border: 1px solid transparent;
+                width: 1%;
+                position: relative;
+                top: 0px;
+                transition: 0.5s ease all !important;
+            }
+            .nav-link{
+                transition: 0.5s ease all;
+
+            }
+
+            .nav-link:hover{
+
+                text-shadow: $sombra--texto--leve;
+              
+                
+            }
+
+            &:hover{
+                .nav-item__outline{
+                    border: 1px solid rgb(255, 255, 255) !important;
+                    width: 100% !important;
+
+                }
+                
+                
+            }
+
+          
+        }
+    }
 }
 
 
 header{
 
-  
+    position: absolute;
+    z-index: 1;
     //
     // border: 1px solid black;
     padding: 0px 0px 0px 30px !important;
@@ -28,17 +87,15 @@ header{
 
     @media (min-width: 726px)
     {
-        background-image: linear-gradient(to bottom, $preto, #1a1a1ac0, #1a1a1a82, #1a1a1a00);
-        
+        // background-image: linear-gradient(to bottom, $preto, #1a1a1ac0, #1a1a1a82, #1a1a1a00);
+        background-color: $preto;
         top: 0; 
-        position: fixed !important;  
     }
 
     @media (max-width:725px)
     {
         background-color: $preto;;
     }
-    z-index: 3;
     .navbar-nav{
         // background-color: red;
 
@@ -91,7 +148,7 @@ header{
 
 
 main{
-
+    border: none !important; 
     // Controle do espaçamento do scroll
     #beneficios, #servicos, #contato{
         padding-top: 150px;
@@ -121,6 +178,8 @@ main{
             color: white;
             border: 2px solid white;
             transform: scale(1.2);
+            position: relative;
+            z-index: 2;
             margin: 50px 20px 0px 20px !important;
             
             &:hover{
@@ -138,7 +197,6 @@ main{
     .banner--tarot
     {
         width: 80%;
-        z-index: 2;
         margin: 60px auto;
         
         // background-color: red;
@@ -151,7 +209,7 @@ main{
         background-position: center;
         background-repeat: no-repeat;
         
-        z-index: 1;
+        z-index: -1;
 
         display: flex;
         justify-content: center;
@@ -406,13 +464,15 @@ main{
 
 footer
 {
-    background-color: rgba(0, 0, 0, 0.104);
+    background-color: $preto;
+    margin: auto;
+    width: 100%;
     opacity: 0.8;
     min-height: 200px;
     margin-top: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 100%;
+    
     font-size: 0.8rem;
     .info, .secoes
     {
