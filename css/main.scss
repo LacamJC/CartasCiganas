@@ -29,6 +29,7 @@ body{
     top: 0;
     width: 100%;    
     height: 50px;
+    z-index: 12;
     
     background-color: $preto;
     ul{
@@ -483,7 +484,7 @@ main{
                 &:hover{
                     transform: translateX(5px) translateY(-5px);
                     
-                    box-shadow: -2px 2px 14px -5px $vermelho;
+                    box-shadow: -2px 2px 14px -5px rgba(0, 0, 0, 0.645);
                 }
             }
           
@@ -494,12 +495,13 @@ main{
     .card{
         background-color: $preto;
         position: relative;
-        z-index: -1;
+        z-index: 10;
         padding: 20px 30px;
         width: 90%;
         margin: auto;
         min-height: 400px;
         transform: scale(0.8);
+        box-shadow: $sombra--caixa;
         .card__header{
             // height: 40%;
             display: flex;
