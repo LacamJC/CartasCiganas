@@ -16,6 +16,9 @@ body{
 
 }
 
+.texto{
+    font-size: 1.2rem;
+}
 
 .font-black{
     color: $preto;
@@ -160,12 +163,44 @@ main{
 
     //
 
+    .texto_expl{
+        font-size: 1.2em;
+        text-indent: 15px;
+        // background-image: url(../img/lua_vetor.png);
+
+        // background-repeat: no-repeat;
+        // background-size: contain;
+        
+    }
+
+    .interesse{
+        max-width: 600px;
+        margin: 50px auto;
+        background-color: $vermelho;
+        border-radius: 15px;
+        padding: 15px 20px;
+        text-align: justify;
+        font-weight: 500;
+        p{
+            color: $preto;
+
+            a{
+                color: $preto;
+                text-decoration: none;
+                font-weight: bold;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
     border: 1px solid rgba(0, 0, 0, 0.11);
 
     .pica{
         width: 80%;
         margin: auto;
-        margin-bottom: 300px;
+        margin-bottom: 400px;
         margin-top: 150px;
         padding: 10px 10px;
 
@@ -229,7 +264,7 @@ main{
             padding: 10px 5px;
             // font-weight: bold;
             letter-spacing: 1.4px;
-            text-shadow: -3px 3px 6px rgba(0, 0, 0, 0.699);
+            text-shadow: -3px 3px 5px rgba(0, 0, 0, 0.262);
         }
 
     }
@@ -288,6 +323,11 @@ main{
         margin-bottom: 300px;
         margin-top: 200px;
         text-shadow: $sombra--texto--leve;
+        @media (min-width:768px) {
+            width: 90%;   
+        }
+        // background-color: red;
+        margin: auto;
         // padding-top: 100px;
         h2{
             text-align: center;
@@ -311,6 +351,10 @@ main{
             // background-color: red;
             margin: 20px 0px;
         }
+
+        .servicos--item{
+
+        }
         
         .col-img
         {
@@ -319,7 +363,7 @@ main{
             justify-content: center;
             align-items: center;
             img{
-                width: 80%;
+                max-width: 50%;
                 box-shadow: $sombra--caixa;
                 border-radius: 15px;
             }
