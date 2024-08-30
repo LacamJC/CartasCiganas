@@ -634,14 +634,14 @@ footer
 {
     display: flex;
     @media (min-width: 768px){padding: 0px 200px;}
-    @media (max-width: 768px){padding: 0px 50px;}
+    @media (max-width: 768px){padding: 0px 24px;}
 
     .dai{
         background-color: $preto;
         padding: 20px 10px;
         border-radius: 18px;
 
-        @media(max-width:768px){width: 70%; margin: auto;}
+        @media(max-width:768px){width: 90%; margin: 20px auto;}
         
         .header{
             display: flex;

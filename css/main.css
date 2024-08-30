@@ -486,7 +486,7 @@ footer .info ul li:hover, footer .secoes ul li:hover {
 }
 @media (max-width: 768px) {
   .missao {
-    padding: 0px 50px;
+    padding: 0px 24px;
   }
 }
 .missao .dai {
@@ -496,8 +496,8 @@ footer .info ul li:hover, footer .secoes ul li:hover {
 }
 @media (max-width: 768px) {
   .missao .dai {
-    width: 70%;
-    margin: auto;
+    width: 90%;
+    margin: 20px auto;
   }
 }
 .missao .dai .header {
