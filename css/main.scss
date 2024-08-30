@@ -629,3 +629,47 @@ footer
         }
     }
 }
+
+.missao
+{
+    display: flex;
+    @media (min-width: 768px){padding: 0px 200px;}
+    @media (max-width: 768px){padding: 0px 50px;}
+
+    .dai{
+        background-color: $preto;
+        padding: 20px 10px;
+        border-radius: 18px;
+
+        @media(max-width:768px){width: 70%; margin: auto;}
+        
+        .header{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;    
+            img{
+                width: 80%;
+                border-radius: 10px;
+                margin: auto;
+                margin-bottom: 5px;
+            }
+
+            h3{
+                font-size: 1.1rem;
+                text-align: center;
+            }
+            h4{
+                font-size: 1rem;
+                opacity: 0.9;
+                text-align: center;
+            }
+        }
+
+        .body{
+            p{
+                font-size: 0.9rem;
+                text-indent: 10px;
+            }
+        }
+    }
+}

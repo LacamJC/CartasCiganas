@@ -474,4 +474,53 @@ footer .info ul li:hover, footer .secoes ul li:hover {
 .sobreMim .card .card__footer a:hover .line {
   width: 100%;
   background-color: white;
+}
+
+.missao {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .missao {
+    padding: 0px 200px;
+  }
+}
+@media (max-width: 768px) {
+  .missao {
+    padding: 0px 50px;
+  }
+}
+.missao .dai {
+  background-color: #2F2F2F;
+  padding: 20px 10px;
+  border-radius: 18px;
+}
+@media (max-width: 768px) {
+  .missao .dai {
+    width: 70%;
+    margin: auto;
+  }
+}
+.missao .dai .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.missao .dai .header img {
+  width: 80%;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+.missao .dai .header h3 {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.missao .dai .header h4 {
+  font-size: 1rem;
+  opacity: 0.9;
+  text-align: center;
+}
+.missao .dai .body p {
+  font-size: 0.9rem;
+  text-indent: 10px;
 }/*# sourceMappingURL=main.css.map */
