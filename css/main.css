@@ -106,7 +106,7 @@ main {
   border: 1px solid rgba(0, 0, 0, 0.11);
 }
 main #beneficios, main #servicos, main #contato {
-  padding-top: 150px;
+  padding-top: 75px;
 }
 main .texto_expl {
   font-size: 1.2em;
@@ -165,7 +165,6 @@ main .pica ._btn:hover {
   }
 }
 main .banner--tarot {
-  width: 80%;
   margin: 60px auto;
   min-height: 200px;
   z-index: -1;
@@ -173,6 +172,11 @@ main .banner--tarot {
   justify-content: center;
   align-items: center;
   border-radius: 15px;
+}
+@media (min-width: 768px) {
+  main .banner--tarot {
+    width: 80%;
+  }
 }
 main .banner--tarot p {
   font-size: 1.4rem;
@@ -270,6 +274,7 @@ main .servicos .row > div {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 13;
   opacity: 0.2;
   transition: 0.5s ease all;
 }
@@ -284,7 +289,6 @@ main .servicos .row > div {
   .zap {
     opacity: 0.5;
     bottom: 50px;
-    z-index: 1;
   }
 }
 
@@ -347,42 +351,6 @@ main .servicos .row > div {
     box-shadow: -2px 2px 14px -5px rgba(0, 0, 0, 0.645);
   }
 }
-.secao_contato .card {
-  background-color: #2F2F2F;
-  position: relative;
-  z-index: 10;
-  padding: 20px 30px;
-  width: 90%;
-  margin: auto;
-  min-height: 400px;
-  transform: scale(0.8);
-  box-shadow: -2px 2px 14px -5px rgba(0, 0, 0, 0.47);
-}
-.secao_contato .card .card__header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-  margin: 50px 0px;
-}
-.secao_contato .card .card__header .card__img {
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
-  overflow: hidden;
-  border-radius: 50%;
-}
-.secao_contato .card .card__header .card__img img {
-  width: 100%;
-  height: 100%;
-}
-.secao_contato .card .card__body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 0.8rem;
-  text-align: justify;
-}
 
 footer {
   background-color: #2F2F2F;
@@ -421,4 +389,89 @@ footer .info ul, footer .secoes ul {
 footer .info ul li:hover, footer .secoes ul li:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.sobreMim {
+  width: 100%;
+  min-height: 200px;
+  padding: 50px 0px;
+}
+@media (min-width: 768px) {
+  .sobreMim {
+    background-color: #DFC684;
+  }
+}
+@media (max-width: 768px) {
+  .sobreMim {
+    background-color: #2F2F2F;
+  }
+}
+.sobreMim .card {
+  background-color: #2F2F2F;
+  position: relative;
+  z-index: 10;
+  padding: 20px 30px;
+  margin: auto;
+  min-height: 400px;
+}
+@media (min-width: 768px) {
+  .sobreMim .card {
+    width: 60%;
+  }
+}
+@media (min-width: 768px) {
+  .sobreMim .card {
+    box-shadow: -2px 2px 14px -5px rgba(0, 0, 0, 0.47);
+    border: none !important;
+  }
+}
+.sobreMim .card .card__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin: 50px 0px;
+}
+.sobreMim .card .card__header .card__img {
+  width: 200px;
+  height: 200px;
+}
+.sobreMim .card .card__header .card__img img {
+  width: 100%;
+  height: 100%;
+  transform: scale(2);
+}
+.sobreMim .card .card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.sobreMim .card .card__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3rem;
+  min-height: 20px;
+  padding: 10px 0px;
+}
+.sobreMim .card .card__footer a {
+  transition: 0.5s ease all;
+}
+.sobreMim .card .card__footer a .line {
+  width: 1%;
+  height: 4px;
+  background-color: transparent;
+  margin-top: 10px;
+  transition: 0.5s ease all;
+}
+.sobreMim .card .card__footer a:hover {
+  transform: scale(1.1) translateX(5px) translateY(-5);
+}
+.sobreMim .card .card__footer a:hover .line {
+  width: 100%;
+  background-color: white;
 }/*# sourceMappingURL=main.css.map */

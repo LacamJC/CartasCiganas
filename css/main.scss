@@ -159,7 +159,7 @@ main{
     border: none !important; 
     // Controle do espaçamento do scroll
     #beneficios, #servicos, #contato{
-        padding-top: 150px;
+        padding-top: 75px;
     }
 
     //
@@ -236,7 +236,7 @@ main{
 
     .banner--tarot
     {
-        width: 80%;
+        @media (min-width: 768px){width: 80%;}
         margin: 60px auto;
         
         // background-color: red;
@@ -394,6 +394,7 @@ main{
     justify-content: center;
     align-items: center;
     
+    z-index: 13;
     opacity: 0.2;
 
     transition: 0.5s ease all;
@@ -410,7 +411,7 @@ main{
     {
         opacity: 0.5;
         bottom: 50px;
-        z-index: 1;
+       
     }
 }
 
@@ -490,50 +491,7 @@ main{
           
         }
     }
-
-
-    .card{
-        background-color: $preto;
-        position: relative;
-        z-index: 10;
-        padding: 20px 30px;
-        width: 90%;
-        margin: auto;
-        min-height: 400px;
-        transform: scale(0.8);
-        box-shadow: $sombra--caixa;
-        .card__header{
-            // height: 40%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 20px;
-            margin: 50px 0px;
-            .card__img{
-                width: 200px;
-                height: 200px;
-                background-color: yellow;
-                overflow: hidden;
-                border-radius: 50%;
-                img{
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-        }
-
-        .card__body
-        {
-            // background-color: red;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 0.8rem;
-            text-align: justify;
-        }
-    }
 }
-
 footer
 {
     background-color: $preto;
@@ -578,6 +536,96 @@ footer
             }
         }
     }
+}
 
 
+.sobreMim{
+
+    width: 100%;
+    min-height: 200px;
+    padding: 50px 0px;
+    @media (min-width:768px){background-color: $vermelho;}
+    @media (max-width:768px){background-color: $preto;}
+
+    .card{
+        background-color: $preto;
+        position: relative;
+        z-index: 10;
+        padding: 20px 30px;
+        @media (min-width: 768px){width: 60%;}
+        margin:auto;
+        min-height: 400px;
+
+        @media(min-width:768px){box-shadow: $sombra--caixa; border: none !important;}
+        .card__header{
+            // height: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            margin: 50px 0px;
+            .card__img{
+                width: 200px;
+                height: 200px;
+                // background-color: yellow;
+                // overflow: hidden;
+                // border-radius: 50%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    transform: scale(2);
+                }
+            }
+        }
+
+        .card__body
+        {
+            // background-color: red;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            text-align: justify;
+        }
+
+        .card__footer
+        {
+            display: flex;
+            flex-direction: row;
+
+            justify-content: space-around;
+            align-items: center;
+
+            font-size: 3rem;
+            // background-color: red;
+            min-height: 20px;
+            padding: 10px 0px;
+
+            a{
+                transition: 0.5s ease all;
+
+
+                .line 
+                {
+                    width: 1%;
+                    height: 4px;
+                    background-color: transparent;
+                    margin-top: 10px;
+
+                    transition: 0.5s ease all;
+
+
+                }
+
+                &:hover{
+                    transform: scale(1.1) translateX(5px) translateY(-5);
+                    .line{
+                        width: 100%;
+                        background-color: white;
+                    }
+                }
+            }
+        }
+    }
 }
