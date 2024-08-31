@@ -65,6 +65,15 @@ header {
   z-index: 13;
   padding: 0px 0px 0px 30px !important;
   width: 100%;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-full-hand-drawn-night-sky-starry-banner-background-paintedstarry-skybannerbackgroundmountain-rangeaurorastarbeautifulskynight-image_77847.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+@media (min-width: 768px) {
+  header {
+    background-image: none;
+  }
 }
 @media (min-width: 726px) {
   header {
