@@ -10,7 +10,7 @@
 body {
   overflow-x: hidden;
   width: 100%;
-  background-image: linear-gradient(to bottom, #2F2F2F, #2F2F2F, #2F2F2F, #DFC684, #DFC684, #DFC684);
+  background-image: linear-gradient(to bottom, #090F14, #090F14, #0B3078, #0B3078, #0B3078);
 }
 
 .texto {
@@ -18,7 +18,7 @@ body {
 }
 
 .font-black {
-  color: #2F2F2F;
+  color: #090F14;
 }
 
 .menu-fixed {
@@ -27,7 +27,7 @@ body {
   width: 100%;
   height: 50px;
   z-index: 12;
-  background-color: #2F2F2F;
+  background-color: #090F14;
 }
 .menu-fixed ul {
   margin-top: 10px;
@@ -77,13 +77,13 @@ header {
 }
 @media (min-width: 726px) {
   header {
-    background-color: #2F2F2F;
+    background-color: #090F14;
     top: 0;
   }
 }
 @media (max-width: 725px) {
   header {
-    background-color: #2F2F2F;
+    background-color: #090F14;
   }
 }
 header .navbar-nav .nav-item {
@@ -124,17 +124,17 @@ main .texto_expl {
 main .interesse {
   max-width: 600px;
   margin: 50px auto;
-  background-color: #DFC684;
+  background-color: #0B3078;
   border-radius: 15px;
   padding: 15px 20px;
   text-align: justify;
   font-weight: 500;
 }
 main .interesse p {
-  color: #2F2F2F;
+  color: white !important;
 }
 main .interesse p a {
-  color: #2F2F2F;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -334,7 +334,7 @@ main .servicos .row > div {
   }
 }
 .secao_contato .contato .contato__item {
-  background-color: #2F2F2F;
+  background-color: #090F14;
   padding: 10px 10px 10px 25px;
   border-radius: 15px;
   margin: 20px 10px;
@@ -362,7 +362,7 @@ main .servicos .row > div {
 }
 
 footer {
-  background-color: #2F2F2F;
+  background-color: #090F14;
   margin: auto;
   width: 100%;
   opacity: 0.8;
@@ -407,16 +407,16 @@ footer .info ul li:hover, footer .secoes ul li:hover {
 }
 @media (min-width: 768px) {
   .sobreMim {
-    background-color: #DFC684;
+    background-color: #0B3078;
   }
 }
 @media (max-width: 768px) {
   .sobreMim {
-    background-color: #2F2F2F;
+    background-color: #090F14;
   }
 }
 .sobreMim .card {
-  background-color: #2F2F2F;
+  background-color: #090F14;
   position: relative;
   z-index: 10;
   padding: 20px 30px;
@@ -499,7 +499,7 @@ footer .info ul li:hover, footer .secoes ul li:hover {
   }
 }
 .missao .dai {
-  background-color: #2F2F2F;
+  background-color: #090F14;
   padding: 20px 10px;
   border-radius: 18px;
 }

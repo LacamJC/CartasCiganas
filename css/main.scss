@@ -11,7 +11,7 @@ body{
     overflow-x: hidden;
     width: 100%;
     // background-color: $preto;
-    background-image: linear-gradient(to bottom, $preto, $preto, $preto, $vermelho, $vermelho, $vermelho);
+    background-image: linear-gradient(to bottom, $preto, $preto, $vermelho, $vermelho, $vermelho);
     // background-image: linear-gradient(-45deg, $azul-1, $azul-2);
 
 }
@@ -193,10 +193,10 @@ main{
         text-align: justify;
         font-weight: 500;
         p{
-            color: $preto;
+            color: white !important;
 
             a{
-                color: $preto;
+                color: white;
                 text-decoration: none;
                 font-weight: bold;
                 &:hover{
