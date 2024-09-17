@@ -470,6 +470,9 @@ footer .info ul li:hover, footer .secoes ul li:hover {
 .sobreMim .card .card__footer a {
   transition: 0.5s ease all;
 }
+.sobreMim .card .card__footer a i {
+  transition: 0.5s ease all;
+}
 .sobreMim .card .card__footer a .line {
   width: 1%;
   height: 4px;
@@ -480,9 +483,17 @@ footer .info ul li:hover, footer .secoes ul li:hover {
 .sobreMim .card .card__footer a:hover {
   transform: scale(1.1) translateX(5px) translateY(-5);
 }
+.sobreMim .card .card__footer a:hover i {
+  border-color: white;
+}
+@media (min-width: 768px) {
+  .sobreMim .card .card__footer a:hover i {
+    filter: drop-shadow(0px 0px 2px rgb(255, 255, 255));
+  }
+}
 .sobreMim .card .card__footer a:hover .line {
   width: 100%;
-  background-color: white;
+  background-color: transparent;
 }
 
 .missao {
@@ -499,7 +510,6 @@ footer .info ul li:hover, footer .secoes ul li:hover {
   }
 }
 .missao .dai {
-  background-color: #090F14;
   padding: 20px 10px;
   border-radius: 18px;
 }
@@ -515,7 +525,7 @@ footer .info ul li:hover, footer .secoes ul li:hover {
   justify-content: center;
 }
 .missao .dai .header img {
-  width: 80%;
+  width: 50%;
   border-radius: 10px;
   margin: auto;
   margin-bottom: 5px;
